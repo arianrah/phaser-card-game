@@ -12,5 +12,12 @@ export default class Game extends Phaser.Scene {
 		this.load.image('MagentaCardBack', '../assets/MagentaCardBack.png')
 	}
 
-	create() {}
+	create() {
+		this.dealText = this.add
+			.text(75, 350, ['DEAL CARDS'])
+			.setFontSize(18)
+			.setFontFamily('Trebuchet MS')
+			.setColor('#00ffff')
+			.setInteractive()
+	}
 }
