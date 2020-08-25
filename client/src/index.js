@@ -1,5 +1,5 @@
-import Phaser from 'phaser'
-import Game from './scenes/game'
+import Phaser from 'phaser';
+import Game from './scenes/game';
 
 const config = {
 	type: Phaser.AUTO,
@@ -7,6 +7,6 @@ const config = {
 	width: 1280,
 	height: 720,
 	scene: [Game]
-}
+};
 
-const game = new Phaser.Game(config)
+const game = new Phaser.Game(config);
